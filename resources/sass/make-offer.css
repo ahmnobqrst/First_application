@@ -1,0 +1,31 @@
+:root{
+    --main--color:#FA4A06;
+    --second--color:#fa9a3b;
+}
+
+body{
+    
+}
+/*---------------------------------------------------*/
+.add-offer{
+    overflow: hidden;
+    margin-top: 50px;
+   margin-bottom: 50px;
+}
+.add-offer .offer-desc h3{
+    color:var(--main--color)
+} .add-offer .offer-desc svg polyline.true
+ ,svg circle.true,svg path.true 
+ ,svg polygon.true{
+    fill: var(--main--color);
+}
+.add-offer .offer-form{
+    padding-top: 50px;
+    background-color:#fff;
+    padding-bottom: 40px;
+    color:var(--main--color);
+   font-size: 17px;
+}
+.add-offer form textarea{
+    height:80px;
+}

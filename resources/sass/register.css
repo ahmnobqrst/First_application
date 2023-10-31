@@ -1,0 +1,57 @@
+:root{
+    --main--color:#FA4A06;
+    --second--color:#fa9a3b;
+}
+
+/*----------------------- register section----------------------------------*/
+.register-section {
+    padding-top: 120px;
+    background-color:#f1f1f1;
+    min-height: 100vh;
+}
+.register-desc h2{
+    margin-bottom: 30px;
+    font-family: 'Chelsea Market', cursive;
+    color:#6a097d;
+}
+.register-desc svg{
+    width:100%;
+    height:400px;
+    color:var(--main--color);
+}
+.register-desc  svg  #Group_2 path , svg  #Group_3 path 
+, svg  #Group_4 path  , svg  #Group_1 path#Path_22 {
+    fill: var(--main--color);
+}
+
+.register-form{
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+.register-form  h5{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.register-form  img{
+    width:60px;height: 60px;
+}
+.register-form input{
+    width:100%;
+    background-color:#c3edea;
+    height:35px;
+    border-radius: 10px;
+}
+.register-form a {    height: 40px;}
+.register-form a.btn-login{
+    background-color:var(--main--color);
+    color:#fff;
+}
+.register-form button a, .register-form button a:hover{
+    text-decoration: none;
+    color:#fff;
+}
+.register-form h5.or{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+

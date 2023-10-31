@@ -1,0 +1,54 @@
+:root{
+    --main--color:#FA4A06;
+    --second--color:#fa9a3b;
+}
+
+/*----------------------- login section----------------------------------*/
+.login-section {
+    padding-top: 130px;
+    background-color:#f1f1f1;
+    min-height: 100vh;
+}
+.login-desc h2{
+    margin-bottom: 30px;
+    font-family: 'Chelsea Market', cursive;
+    color:#6a097d;
+}
+.login-desc img{
+    width:100%;
+    height:450px;
+}
+
+.login-form{
+    background-color: #fff;
+    width:200px !important;
+    height: 430px;
+}
+.login-form  h5{
+   font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-family: 'Montserrat Alternates', sans-serif; 
+    color:#6a097d;
+
+}
+.login-form input{
+    width:100%;
+    background-color:#92e3a9;
+    height:55px;
+    border-radius: 10px;
+}
+.login-form a{
+    padding-top: 10px;
+    height: 45px;
+}
+.login-form button a, .login-form button a:hover{
+    text-decoration: none;
+    color:#fff;
+}
+.login-form h5.or {
+    margin-top: 10px;
+    margin-bottom: 17px;
+}
+
+
